@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" charset="uft-8" content="width=device-width" initial-scale="1.0">
+        <title>GOOD NIGHT SANDRA</title>
+    </head>
+    <body>
+        <div class="nav" ><div id="plank"><marquee behavior="alternate">from umar</marquee></div></div>
+        <br><br>
+        <h1>
+            hello,good evening dia sandra
+        </h1>
+        <br>
+        <p>am just wishing you a good night.if the saturday has ended nice,then wish u a happy sunday.</p><br>
+        <h3>then another thing,is......okay.</h3>
+        <div class="cont">
+        <h4>lets continue here if yo free</h4>
+        <a href="https://wa.me/256765003100"><button class="but">whatsapp</button></a>
+        
+        </div>
+        <a href="mailto:atuhaumar@gmail.com"><button class="feed">feedback
+            <div id="feedback"><h class="hard">comment on my designing</h></div>
+        </button></a>
+        <style>
+            .hard{
+                padding:10px;
+                background-color:black;
+                border-radius:5px 5px 0 5px;
+            }
+            .feed{
+                position: fixed;
+                bottom:10px;
+                right:10px;
+                background-color:blue;
+                border:0;
+                color:white;
+                padding:8px;border-radius:10px;
+            }
+            #feedback{
+                position: absolute;
+                top:0;
+                width:max-content;
+                right:80px;
+                width:0;overflow:hidden;
+                z-index:1;
+            }
+            .but{
+                background-color:green;
+                padding:10px 40px;
+                border:0;
+                color:white;font-weight:bolder;
+                border-radius:10px;
+            }
+            .cont{
+            box-shadow:0 0 20px black;    
+            border-radius:10px;
+            padding:20px;
+            color:purple;
+            font-size:20px;
+            background-color: rgb(195, 195, 240);
+            }
+            h1{color:blue;}
+            body{
+                background-color:white;
+                text-align: center;
+            }
+            .nav{
+                background-color: black;
+                position:fixed;
+                top: 0;left:0;right:0;padding:10px;
+                color:red;text-align: center;
+            }
+            #plank{
+                animation:spin 1s linear infinite;
+            }
+            @keyframes spin {
+                100%{transform:rotat(360deg)}
+            }
+        </style>
+        <script>
+            function plan(){
+                var sand=document.getElementById('plank')
+                setInterval(() => {
+                    color()
+                }, 1000);function color(){
+                    sand.style.color='yellow';
+                }
+            }
+            function feedMe(){
+                var feed=document.getElementById('feedback')
+                setTimeout(() => {
+                    show()
+                }, 1000);function show(){
+                    feed.style.width="max-Content";
+                }
+            }
+        </script>
+    </body>
+</html>
